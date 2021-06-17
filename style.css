@@ -6,12 +6,12 @@
     height: 60px;
     border-radius: 10px;
     border-style: dotted;
+    max-width: fit-content;
     margin-left: 520px;
 	margin-right: 520px;
     margin-top: 200px;
     padding: 15px 30px;
     color: #2196f3;
-    text-transform: italic;
     letter-spacing: 4px;
     text-decoration: none;
     font-size: 20px;
@@ -96,4 +96,10 @@
     bottom: 100%;
     transition: 1s;
     transition-delay: 0.75s;
+}
+@media only screen and (max-width:488px){
+    #puff{
+    flex-direction: column;
+    max-width: fit-content;
+    width: 100%;}
 }

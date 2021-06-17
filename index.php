@@ -11,6 +11,14 @@ session_start();
         <link rel="stylesheet" href="style.css">
 	</head>
 	<body>
+	    <div
+    style="padding: 16px; background: linear-gradient(0.25turn, rgb(140, 53, 144), rgb(44, 73, 130)); color: rgb(251, 180, 74);">
+    <div
+      style="display: flex; justify-content: flex-start; align-items: center; font-size: 1.25rem; font-weight: 400; max-width: 1024px; margin: auto;">
+      <img src="logo.77e93b0b.png" alt="Logo" style="height: 42px; margin-right: 16px;"><span>Pi Network third-party Pi
+        App on the Pi Testnet</span>
+    </div>
+  </div>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Here we Go</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,6 +54,10 @@ session_start();
       </form>
     </div>
     </nav>
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 	<script>
 	  window.fbAsyncInit = function() {
 		FB.init({
