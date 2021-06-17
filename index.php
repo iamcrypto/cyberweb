@@ -11,7 +11,7 @@ session_start();
         <link rel="stylesheet" href="style.css">
 	</head>
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Here we Go</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -99,7 +99,7 @@ if(isset($_SESSION['FB_ID']) && $_SESSION['FB_ID']!=''){
 	<?php
 }else{
 ?>
-<a href="javascript:void(0)" onclick="fbLogin()">Login with Facebook</a>
+<br><a href="javascript:void(0)" onclick="fbLogin()">Login with Facebook</a>
 <?php } ?>
 <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
