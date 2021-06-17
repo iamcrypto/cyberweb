@@ -99,7 +99,11 @@ if(isset($_SESSION['FB_ID']) && $_SESSION['FB_ID']!=''){
 	<?php
 }else{
 ?>
-<a href="javascript:void(0)" onclick="fbLogin()">Login with Facebook</a>
+<a id="puff" href="javascript:void(0)" onclick="fbLogin()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>  login with Facebook</a>
 <?php } ?>
 <script
   src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
