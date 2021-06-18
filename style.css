@@ -7,7 +7,7 @@
     border-radius: 10px;
     border-style: dotted;
     max-width: fit-content;
-    margin-left: 520px;
+    margin-left: 25px;
 	margin-right: 520px;
     margin-top: 200px;
     padding: 15px 30px;
@@ -100,6 +100,6 @@
 @media only screen and (max-width:488px){
     #puff{
     flex-direction: column;
-    max-width: fit-content;
+    max-width: max-content;
     width: 100%;}
 }
